@@ -1,0 +1,26 @@
+vi index.html
+git init
+git add -A
+git commit -m " there is only index.html in the current working directory "
+git status
+git remote add origin https://github.com/rohit4729/Simple-HTMLfile_Deployment-by-Docker-Kubernetes.git
+git push -u origin master
+rm index.html
+ls
+----
+cd ..
+git clone https://github.com/rohit4729/Simple-HTMLfile_Deployment-by-Docker-Kubernetes.git clone
+kubectl get all
+docker image ls
+vi Dockerfile
+docker image build -t rohit4729/proj1-web:v1 .
+docker login -u rohit4729
+docker images
+vi dep.yml
+kubectl get all
+kubectl apply -f dep.yml
+kubectl get svc
+kubectl get pods
+
+
+
