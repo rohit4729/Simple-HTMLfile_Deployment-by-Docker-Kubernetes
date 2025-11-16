@@ -2,6 +2,9 @@
 
 This project demonstrates a basic workflow for containerizing a simple static HTML website with Docker and deploying it to a Kubernetes cluster. The website is then exposed to the web using a NodePort service.
 
+<img width="1944" height="1774" alt="🚀 Simple HTML Deployment with Docker   Kubernetes - visual selection" src="https://github.com/user-attachments/assets/8f7bfc76-db1d-4aaf-b378-ff96890d428a" />
+
+
 ## 💡 Project Workflow
 
 1.  **Static Content:** Start with a simple `index.html` file.
@@ -10,7 +13,7 @@ This project demonstrates a basic workflow for containerizing a simple static HT
 4.  **Deploy:** Kubernetes manifest files (`deployment.yml`) are used to create:
     * A **Deployment** to manage the application's pods, ensuring a desired number of replicas are running.
     * A **Service** (NodePort) to expose the application to external traffic on a specific port (`30080`).
-  
+<img width="3024" height="1948" alt="🚀 Simple HTML Deployment with Docker   Kubernetes - visual selection (1)" src="https://github.com/user-attachments/assets/cc5dcefd-e973-4f23-88fa-5c8d7bae47b8" />
 
 ---
 
@@ -22,6 +25,9 @@ This project demonstrates a basic workflow for containerizing a simple static HT
 * **Docker Hub:** As the container registry.
 * **Kubernetes:** For container orchestration and deployment.
 * **kubectl:** The command-line tool for interacting with Kubernetes.
+  
+<img width="1962" height="1296" alt="🚀 Simple HTML Deployment with Docker   Kubernetes - visual selection (2)" src="https://github.com/user-attachments/assets/ad97d583-f4af-4300-ab13-5fcdb66ca790" />
+
 
 ---
 
@@ -33,6 +39,8 @@ Before you begin, ensure you have the following tools installed and configured:
 * **Docker Hub Account:** To host your container image.
 * **Kubernetes Cluster:** A running cluster, such as [Minikube](https://minikube.sigs.k8s.io/docs/start/), [kind](https://kind.sigs.k8s.io/), or Docker Desktop's built-in cluster.
 * **kubectl:** The Kubernetes command-line tool. ([Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/))
+
+<img width="2241" height="2016" alt="🚀 Simple HTML Deployment with Docker   Kubernetes - visual selection (3)" src="https://github.com/user-attachments/assets/0e6d719e-ea5f-47db-879e-9c4a01d84f24" />
 
 ---
 
@@ -47,6 +55,9 @@ This repository contains the following key files:
 * **`index.html`**: The simple webpage to be served.
 * **`Dockerfile`**: Instructions to build the Nginx container image.
 * **`deployment.yml`**: Kubernetes manifests for the Deployment and Service.
+
+<img width="2551" height="1925" alt="🚀 Simple HTML Deployment with Docker   Kubernetes - visual selection (4)" src="https://github.com/user-attachments/assets/6559d7b5-0d25-4e26-b7bd-59b0bb4f47bb" />
+
 
 #### Sample `Dockerfile`
 
